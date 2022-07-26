@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.roomButton{
+
+  width: 40%;
+    height: 50px;
+    border-radius: 60px;
+    background:black;
+    margin-top: 30px;
+    color: white;
+ /* padding: 20px 40px;
+  background: none;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  margin-top: 20px;*/
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; */
+}
+
+ .slideshowContainer{
+  display: flex;
+} 
+
+.slideshowContainer .img img{
+  display: flex;
+  height: 300px;
+  width: 360px;
+  margin: 0 12px;
+}
+
+/*--------------about--------*/
+.top {
+  margin-top: 10%;
+}
+
+.heading h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  color: #5f5f5f;
+}
+
+.heading h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0 40px 0;
+  color: #222222;
+}
+
+.btn1 {
+  background: #C1B086;
+  color: white;
+  border-radius: 0px;
+  text-align: center;
+}
+
+/*--------------room--------*/
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room .grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.room img {
+  width: 100%;
+  height: 100%;
+}
+
+.room .box {
+  box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
+}
+
+.room .text {
+  padding: 20px;
+}
+
+.room h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.room p span {
+  font-size: 12px;
+  color: grey;
+}
+
+.room p {
+  font-size: 20px;
+}
+
+/*--------------room--------*/
+/*--------------wrapper2--------*/
+
+
+.wrapper2 .text {
+  left: 10%;
+}
+
+.wrapper2 h5,
+.wrapper2 h2 {
+  color: white;
+}
+
+.wrapper2 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.wrapper2 .para h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.wrapper2 .para {
+  margin-left: 10%;
+}

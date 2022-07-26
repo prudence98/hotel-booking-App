@@ -1,0 +1,54 @@
+.main{
+    margin: 50px;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.descptive{
+    width: 40%;
+    height: 50vh;
+}
+
+.descptive h2{
+    text-align: center;
+}
+
+table, td {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+ td {
+    padding: 15px;
+  }
+
+.pictures{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+
+.gallery{
+    margin: 15px;
+   
+}
+
+.gallery img{
+    width: 300px;
+    height: 300px;
+}

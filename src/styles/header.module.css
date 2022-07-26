@@ -1,0 +1,67 @@
+.main{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+.navBar{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.isActive{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+}
+
+.nav li{
+    margin: 0 15px;
+    list-style: none;
+   
+}
+
+.navBar label{
+    margin: 0 25px;
+    justify-content: flex-end;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.activeResults{
+    height: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.activeResults:empty{
+    height: 0;
+}
+
+.searchResults{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #fff;
+    color: black;
+    align-items: center;
+}
+
+.searchResults p:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.logout:hover{
+    cursor: pointer;
+}

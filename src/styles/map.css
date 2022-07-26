@@ -1,0 +1,12 @@
+.mapmain{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+
+}
+
+iframe{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}

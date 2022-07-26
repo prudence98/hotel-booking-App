@@ -1,0 +1,80 @@
+.home{
+    background-image: url('../images/house.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 80vh;
+    color: black;
+}
+
+.companyName{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 2em;
+}
+
+.book{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(36, 57, 75,0.8);
+    border-radius: 12px;
+    color: rgb(209, 209, 209);
+    font-size: 1.3em;
+}
+
+.headerEnd{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.headerEnd .tapIcon{
+    margin: 0 40px;
+    border: 1px grey solid;
+    padding: 5px;
+    background-color: rgb(3, 3, 3, 0.4);
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    background-color: white;
+}
+
+.left img{
+    width: 400px;
+    height: 300px;
+}
+
+#image2{
+    margin-left: 150px;
+    margin-top: -15px;
+}
+
+.right{
+    width: 50%;
+    color: black;
+    margin-left: 50px;
+
+}
+
+.right h2{
+    margin-top: 50px;
+    margin-left: -40px;
+    padding-bottom: 25px;
+
+}
+
+.right label{
+    margin-top: 20px;
+}
+
+.content2{
+    background-color: black;
+}

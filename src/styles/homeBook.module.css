@@ -1,0 +1,55 @@
+.content{
+    margin-top: 100px;
+    background-color: rgba(238, 238, 238, 0.212);
+    width: 90%;
+    margin: auto;
+}
+
+.hotelList{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.hotel{
+    display: flex;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+
+.image{
+    width: 30%;
+    height: 35vh;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.image img{
+    width: 350px;
+    height: 285px;
+}
+
+
+.description{
+    width: 60%;
+    margin-top: 5px;
+}
+
+.bookbtn{
+    width: 10%;
+    margin-top: 75px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 75px;
+}
+
+.openMap{
+    color: rgb(163, 0, 0);
+    font-size: 1.1em;
+    font-weight: 300;
+}
